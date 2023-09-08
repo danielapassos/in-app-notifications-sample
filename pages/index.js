@@ -55,11 +55,11 @@ export default function Home() {
         <Flex mb={8}>
           <Box>
             <Heading size="md" mb={2}>
-              React in-app notifications example
+              Dani Passos
             </Heading>
 
             <Text>
-              This is an example application to show in-app notifications{" "}
+              This is an sample forked app to show in-app notifications{" "}
               <Link
                 href="https://knock.app"
                 color="blue.600"
@@ -100,7 +100,7 @@ export default function Home() {
 
         <Flex mt={6} borderTopWidth={1} borderTopColor="gray.100" py={2}>
           <Link
-            href="https://github.com/knocklabs/in-app-notifications-example-nextjs"
+            href="https://github.com/danielapassos/in-app-notifications-sample"
             fontSize={14}
             color="gray.600"
             mr={3}
@@ -115,16 +115,16 @@ export default function Home() {
             color="gray.600"
           >
             <Icon as={IoDocument} mr={1} />
-            Documentation
+            Knock's documentation
           </Link>
 
           <Link
-            href="https://knock.app"
+            href="https://danizeres.com"
             fontSize={14}
             color="gray.600"
             ml="auto"
           >
-            Powered by Knock
+            Daniela Passos
           </Link>
         </Flex>
       </Box>

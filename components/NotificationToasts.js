@@ -20,7 +20,7 @@ const NotificationToasts = () => {
           render: (props) => (
             <Toast
               {...props}
-              title={"New notification received"}
+              title={"New notification 👀"}
               description={notification.blocks[0].rendered}
               onClose={() => {
                 feedClient.markAsSeen(notification);
